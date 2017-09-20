@@ -42,11 +42,11 @@ var InstrumentDetails = new Schema({
     required: true
   },
   coupon: {
-    type: String,
+    type: Number,
     required: true
   },
   quantity: {
-    type: String,
+    type: Number,
     required: true
   },
   dayCount: {

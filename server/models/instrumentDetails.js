@@ -24,7 +24,10 @@ var InstrumentDetails = new Schema({
     type: String,
     required: true
   },
-  startDate: {},
+  startDate: {
+    type: {},
+    required: true
+  },
   currency: {
     type: String,
     required: true
